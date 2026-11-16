@@ -1,0 +1,11 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/widget_background" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/widget_surface" android:scaleType="fitXY" android:contentDescription="@null"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="8dp">
+        <TextView android:id="@+id/widget_title" android:layout_width="match_parent" android:layout_height="48dp" android:gravity="center_vertical" android:paddingEnd="44dp" android:textSize="16sp" android:textStyle="bold" android:maxLines="1"/>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <ListView android:id="@+id/widget_list" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@null" android:scrollbars="none" android:overScrollMode="never"/>
+            <TextView android:id="@+id/widget_empty" android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:textSize="14sp"/>
+        </FrameLayout>
+    </LinearLayout>
+    <ImageView android:id="@+id/widget_add" android:layout_width="48dp" android:layout_height="48dp" android:layout_gravity="top|end" android:layout_marginTop="8dp" android:layout_marginEnd="8dp" android:padding="12dp" android:src="@drawable/ic_plus" android:contentDescription="快速新增"/>
+</FrameLayout>

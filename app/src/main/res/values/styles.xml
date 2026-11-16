@@ -1,0 +1,21 @@
+<resources>
+    <style name="Theme.DeskReminder" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item><item name="android:windowLightStatusBar">true</item>
+        <item name="android:colorAccent">#2563EB</item><item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">#F8FAFC</item>
+    </style>
+    <style name="Theme.DeskReminder.WidgetQuickAdd" parent="Theme.DeskReminder">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowBackgroundFallback">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.16</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+    <color name="launcher_background">#FFFFFF</color>
+    <string name="todo_widget_description">待办清单：查看计划、快速新增、勾选完成</string>
+    <string name="note_widget_description">随手记：展示置顶内容并快速记录</string>
+</resources>

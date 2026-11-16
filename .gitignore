@@ -1,0 +1,14 @@
+.gradle/
+.kotlinc/
+.kotlin/
+**/build/
+/signing/
+.signing/
+/local.properties
+/dist/
+*.jks
+*.keystore
+*.hprof
+*.apk
+*.aab
+qa-data/
